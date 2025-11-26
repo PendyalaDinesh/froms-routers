@@ -1,0 +1,101 @@
+/* ---------- GLOBAL ---------- */
+body {
+  font-family: system-ui, Arial, sans-serif;
+  margin: 0;
+  color: #222;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f); /* peach gradient */
+  min-height: 100vh;
+}
+
+/* Optional page wrapper for nicer UI */
+.page-container {
+  max-width: 900px;
+  margin: 20px auto;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  backdrop-filter: blur(5px);
+}
+
+/* ---------- INPUTS ---------- */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 10px 0 16px 0;
+  box-sizing: border-box;
+  border: 2px solid #ffe0cc;
+  border-radius: 8px;
+  background: #fff;
+  transition: 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #ff7a59;
+  box-shadow: 0 0 6px rgba(255, 122, 89, 0.4);
+  outline: none;
+}
+
+/* ---------- BUTTONS ---------- */
+button {
+  padding: 10px 16px;
+  background: #ff7a59; /* primary bright orange */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #ff5722;
+  transform: translateY(-2px);
+}
+
+button:disabled {
+  background: #ffc2b3;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* ---------- NAVIGATION ---------- */
+nav {
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4); /* soft pink gradient */
+  padding: 14px 20px;
+  border-bottom: 2px solid #ff6f91;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+nav a {
+  margin-right: 14px;
+  text-decoration: none;
+  color: #6a0572; /* deep purple */
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #d41b5b; /* bright magenta */
+  text-decoration: underline;
+}
+
+/* ---------- ACTIVE NAVLINK ---------- */
+.active-link {
+  color: #d41b5b;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* ---------- CARD / SECTION UI ---------- */
+section, .card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 16px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
