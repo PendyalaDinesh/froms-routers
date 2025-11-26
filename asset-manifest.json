@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/froms-routers/static/css/main.b54428e4.css",
+    "main.js": "/froms-routers/static/js/main.6ae5dd28.js",
+    "static/media/3d.jpg": "/froms-routers/static/media/3d.4eb38071ed63856eca2a.jpg",
+    "index.html": "/froms-routers/index.html",
+    "main.b54428e4.css.map": "/froms-routers/static/css/main.b54428e4.css.map",
+    "main.6ae5dd28.js.map": "/froms-routers/static/js/main.6ae5dd28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b54428e4.css",
+    "static/js/main.6ae5dd28.js"
+  ]
+}
