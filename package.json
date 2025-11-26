@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "React project for Forms and Routing assignment with unit tests for Contact and Feedback forms.",
   "main": "src/index.js",
+  "homepage": "https://PendyalaDinesh.github.io/froms-routers",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -10,7 +11,9 @@
     "eject": "react-scripts eject",
     "lint": "eslint src/**/*.{js,jsx}",
     "lint:fix": "eslint src/**/*.{js,jsx} --fix",
-    "format": "prettier --write src/**/*.{js,jsx,json,css,md}"
+    "format": "prettier --write src/**/*.{js,jsx,json,css,md}",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
     "react",
